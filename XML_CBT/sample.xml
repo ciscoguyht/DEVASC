@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="template.xsl" version="2.0" ?>
+<authors>
+    <author id="1">
+        <firstName>Jason</firstName>
+        <lastName>Edelman</lastName>
+    </author >
+    <author id="2"> 
+        <firstName>Scott</firstName>
+        <lastName>Lowe</lastName>
+    </author>
+    <author id="3">
+        <firstName>Matt</firstName>
+        <lastName>Oswalt</lastName>
+    </author>
+</authors>

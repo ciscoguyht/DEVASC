@@ -1,0 +1,19 @@
+---
+people:
+- Id: 1
+  FirstName: Benjamin
+  Lastnem: Finkel
+  Email: Benfinkel@gmail.com
+- Id: 2
+  FirstName: Philippe Junior Esaie
+  Lastnem: Volcy
+  Email: volyfelipe@gmail.com
+- Id: 3
+  FirstName: André
+  Lastnem: Volcy
+  Email: philippeandre@gmail.com
+  Lab:
+    - esxi
+    - vcenter
+    - nsx 
+...

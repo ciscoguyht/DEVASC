@@ -1,0 +1,17 @@
+
+
+{%for row in interface_list%}
+interface {{row.Interface}}
+    Switch type is : {{row.Switch}}
+    Description link to {{row.Server}} port {{row.Link}} for {{row.Purpose}}
+    switport
+{%if "trunk" in row.VLAN%}
+    switchport mode trunk
+    switchport trunk native vlan 999
+{%else%}
+    switchport mode access
+    switchport access vlan {{row.VLAN}}
+    spanning-tree port type edge
+{%endif%}
+    no shut
+{%endfor%}
