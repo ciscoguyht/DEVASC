@@ -10,3 +10,5 @@ vlan 50
   name WEB
 vlan 60
   name DB
+vlan 70
+  name Mgmt
